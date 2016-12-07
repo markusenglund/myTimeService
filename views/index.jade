@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1 Timestamp microservice
+    h2 by Markus Englund
+    p.red Example:
+    code localhost:3000/August 14, 2016
+    br
+    code localhost:3000/123412342
+    p.red Expected output:
+    code { "unix": 123412342, "normal": August 14, 2016}
