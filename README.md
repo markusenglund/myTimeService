@@ -1,2 +1,3 @@
 # myTimeService
-training project for freecodecamp
+API project for freecodecamp.
+
